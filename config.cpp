@@ -885,6 +885,16 @@ class CfgExileArsenal
 	///////////////////////////////////////////////////////////////////////////////
 	class acc_flashlight 							{ quality = 1; price = 4; };
 	class acc_pointer_IR 							{ quality = 1; price = 10; };
+	class acc_mas_flash_gun							{ quality = 1; price = 10; };
+	class acc_mas_pointer_gun_IR					{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR						{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR_b						{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR_top					{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR_top_b					{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR2						{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR2_top					{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR2c						{ quality = 1; price = 10; };
+	class acc_mas_pointer_IR2c_top					{ quality = 1; price = 10; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Bitpod Attachments
@@ -913,6 +923,22 @@ class CfgExileArsenal
 	class muzzle_snds_H_SW 							{ quality = 2; price = 20; };
 	class muzzle_snds_L 							{ quality = 1; price = 10; };
 	class muzzle_snds_M 							{ quality = 1; price = 10; };
+	class muzzle_mas_snds_L							{ quality = 2; price = 50; };
+	class muzzle_mas_snds_LM						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_C							{ quality = 2; price = 50; };
+	class muzzle_mas_snds_MP5SD6					{ quality = 2; price = 50; };
+	class muzzle_mas_snds_M							{ quality = 2; price = 50; };
+	class muzzle_mas_snds_Mc						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_MP7						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_AK						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SM						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SMc						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SH						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SHc						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SV						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SVc						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_SVD						{ quality = 2; price = 50; };
+	class muzzle_mas_snds_KSVK						{ quality = 2; price = 50; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// UAVS
@@ -956,6 +982,48 @@ class CfgExileArsenal
 	class optic_tws									{ quality = 3; price = 1500; };
 	class optic_tws_mg								{ quality = 3; price = 1500; };
 	class optic_Yorris								{ quality = 1; price = 10; };
+	class optic_mas_DMS								{ quality = 1; price = 150; };
+	class optic_mas_DMS_c							{ quality = 1; price = 150; };
+	class optic_mas_Holosight_blk					{ quality = 1; price = 150; };
+	class optic_mas_Holosight_camo					{ quality = 1; price = 150; };
+	class optic_mas_Arco_blk						{ quality = 1; price = 150; };
+	class optic_mas_Arco_camo						{ quality = 1; price = 150; };
+	class optic_mas_Hamr_camo						{ quality = 1; price = 150; };
+	class optic_mas_Aco_camo						{ quality = 1; price = 150; };
+	class optic_mas_ACO_grn_camo					{ quality = 1; price = 150; };
+	class optic_mas_MRCO_camo						{ quality = 1; price = 150; };
+	class optic_mas_zeiss							{ quality = 1; price = 150; };
+	class optic_mas_zeiss_c							{ quality = 1; price = 150; };
+	class optic_mas_zeiss_eo						{ quality = 1; price = 150; };
+	class optic_mas_zeiss_eo_c						{ quality = 1; price = 150; };
+	class optic_mas_acog							{ quality = 1; price = 150; };
+	class optic_mas_acog_c							{ quality = 1; price = 150; };
+	class optic_mas_acog_eo							{ quality = 1; price = 150; };
+	class optic_mas_acog_eo_c						{ quality = 1; price = 150; };
+	class optic_mas_acog_rd							{ quality = 1; price = 150; };
+	class optic_mas_acog_rd_c						{ quality = 1; price = 150; };
+	class optic_mas_handle							{ quality = 1; price = 150; };
+	class optic_mas_aim								{ quality = 1; price = 150; };
+	class optic_mas_aim_c							{ quality = 1; price = 150; };
+	class optic_mas_PSO								{ quality = 1; price = 150; };
+	class optic_mas_PSO_c							{ quality = 1; price = 150; };
+	class optic_mas_PSO_eo							{ quality = 1; price = 150; };
+	class optic_mas_PSO_eo_c						{ quality = 1; price = 150; };
+	class optic_mas_PSO_nv							{ quality = 1; price = 150; };
+	class optic_mas_PSO_nv_c						{ quality = 1; price = 150; };
+	class optic_mas_PSO_nv_eo						{ quality = 1; price = 150; };
+	class optic_mas_PSO_nv_eo_c						{ quality = 1; price = 150; };
+	class optic_mas_PSO_day							{ quality = 1; price = 150; };
+	class optic_mas_PSO_nv_day						{ quality = 1; price = 150; };
+	class optic_mas_term							{ quality = 1; price = 150; };
+	class optic_mas_MRD								{ quality = 1; price = 150; };
+	class optic_mas_LRPS							{ quality = 1; price = 150; };
+	class optic_mas_kobra							{ quality = 1; price = 150; };
+	class optic_mas_kobra_c							{ quality = 1; price = 150; };
+	class optic_mas_nspu							{ quality = 1; price = 150; };
+	class optic_mas_goshawk							{ quality = 1; price = 150; };
+	class optic_mas_PSO_kv							{ quality = 1; price = 150; };
+	class optic_mas_PSO_kv_c						{ quality = 1; price = 150; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hardware
@@ -1995,6 +2063,16 @@ class CfgTraderCategories
 		{
 			"acc_flashlight",
 			"acc_pointer_IR"
+			"acc_mas_flash_gun",
+			"acc_mas_pointer_gun_IR",
+			"acc_mas_pointer_IR",
+			"acc_mas_pointer_IR_b",
+			"acc_mas_pointer_IR_top",
+			"acc_mas_pointer_IR_top_b",
+			"acc_mas_pointer_IR2",
+			"acc_mas_pointer_IR2_top",
+			"acc_mas_pointer_IR2c",
+			"acc_mas_pointer_IR2c_top"
 		};
 	};
 
@@ -2033,6 +2111,22 @@ class CfgTraderCategories
 			"muzzle_snds_H_SW",
 			"muzzle_snds_L",
 			"muzzle_snds_M"
+			"muzzle_mas_snds_L",
+			"muzzle_mas_snds_LM",
+			"muzzle_mas_snds_C",
+			"muzzle_mas_snds_MP5SD6",
+			"muzzle_mas_snds_M",
+			"muzzle_mas_snds_Mc",
+			"muzzle_mas_snds_MP7",
+			"muzzle_mas_snds_AK",
+			"muzzle_mas_snds_SM",
+			"muzzle_mas_snds_SMc",
+			"muzzle_mas_snds_SH",
+			"muzzle_mas_snds_SHc",
+			"muzzle_mas_snds_SV",
+			"muzzle_mas_snds_SVc",
+			"muzzle_mas_snds_SVD",
+			"muzzle_mas_snds_KSVK"
 		};
 	};
 
@@ -2090,6 +2184,48 @@ class CfgTraderCategories
 			"optic_tws",
 			"optic_tws_mg",
 			"optic_Yorris"
+			"optic_mas_DMS",
+			"optic_mas_DMS_c",
+			"optic_mas_Holosight_blk",
+			"optic_mas_Holosight_camo",
+			"optic_mas_Arco_blk",
+			"optic_mas_Arco_camo",
+			"optic_mas_Hamr_camo",
+			"optic_mas_Aco_camo",
+			"optic_mas_ACO_grn_camo",
+			"optic_mas_MRCO_camo",
+			"optic_mas_zeiss",
+			"optic_mas_zeiss_c",
+			"optic_mas_zeiss_eo",
+			"optic_mas_zeiss_eo_c",
+			"optic_mas_acog",
+			"optic_mas_acog_c",
+			"optic_mas_acog_eo",
+			"optic_mas_acog_eo_c",
+			"optic_mas_acog_rd",
+			"optic_mas_acog_rd_c",
+			"optic_mas_handle",
+			"optic_mas_aim",
+			"optic_mas_aim_c",
+			"optic_mas_PSO",
+			"optic_mas_PSO_c",
+			"optic_mas_PSO_eo",
+			"optic_mas_PSO_eo_c",
+			"optic_mas_PSO_nv",
+			"optic_mas_PSO_nv_c",
+			"optic_mas_PSO_nv_eo",
+			"optic_mas_PSO_nv_eo_c",
+			"optic_mas_PSO_day",
+			"optic_mas_PSO_nv_day",
+			"optic_mas_term",
+			"optic_mas_MRD",
+			"optic_mas_LRPS",
+			"optic_mas_kobra",
+			"optic_mas_kobra_c",
+			"optic_mas_nspu",
+			"optic_mas_goshawk",
+			"optic_mas_PSO_kv",
+			"optic_mas_PSO_kv_c"
 		};
 	};
 
