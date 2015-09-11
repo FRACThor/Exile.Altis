@@ -1200,15 +1200,34 @@ class CfgExileArsenal
 	class hgun_P07_F 								{ quality = 1; price = 50; };
 	class hgun_Pistol_heavy_01_F 					{ quality = 2; price = 80; };
 	class hgun_Pistol_heavy_02_F 					{ quality = 2; price = 80; };
+	class hgun_mas_m9_F 							{ quality = 1; price = 50; };
+	class hgun_mas_glock_F 							{ quality = 1; price = 50; };
+	class hgun_mas_p226_F 							{ quality = 2; price = 80; };
+	class hgun_mas_bhp_F		 					{ quality = 2; price = 80; };
+	class hgun_mas_acp_F 							{ quality = 1; price = 100; };
+	class hgun_mas_usp_F 							{ quality = 2; price = 100; };
+	class hgun_mas_glocksf_F		 				{ quality = 2; price = 100; };
+	class hgun_mas_mp7p_F 							{ quality = 2; price = 250; };
+	class hgun_mas_uzi_F 							{ quality = 2; price = 250; };
 	class hgun_Pistol_Signal_F 						{ quality = 9000; price = 100; };
 	class hgun_Rook40_F 							{ quality = 1; price = 50; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Sub Machine Guns
 	///////////////////////////////////////////////////////////////////////////////
+	class arifle_mas_mp40 							{ quality = 1; price = 100; };
+	class arifle_mas_mp40_o 						{ quality = 1; price = 100; };
+	class arifle_mas_sten 						{ quality = 1; price = 100; };
+	class arifle_mas_m1014 							{ quality = 1; price = 100; };
+	class arifle_mas_aa12 							{ quality = 1; price = 100; };
 	class hgun_PDW2000_F 							{ quality = 1; price = 100; };
+	class hgun_mas_mp7_F 							{ quality = 1; price = 100; };
 	class SMG_01_F 									{ quality = 1; price = 150; };
 	class SMG_02_F 									{ quality = 1; price = 150; };
+	class arifle_mas_mp5 							{ quality = 1; price = 100; };
+	class arifle_mas_mp5_v 							{ quality = 1; price = 100; };
+	class arifle_mas_mp5_d 							{ quality = 1; price = 150; };
+	class arifle_mas_mp5_ds							{ quality = 1; price = 150; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Light Machine Guns
@@ -1216,9 +1235,22 @@ class CfgExileArsenal
 	class arifle_MX_SW_Black_F						{ quality = 2; price = 250; };
 	class arifle_MX_SW_F							{ quality = 2; price = 250; };
 	class LMG_Mk200_F								{ quality = 2; price = 300; };
+		class LMG_mas_Mk200_F							{ quality = 2; price = 300; };
+	class LMG_mas_Mk200_F_v							{ quality = 2; price = 300; };
+	class LMG_mas_Mk200_F_d							{ quality = 2; price = 300; };
+		class LMG_mas_M249_F							{ quality = 2; price = 300; };
+	class LMG_mas_M249_F_v							{ quality = 2; price = 300; };
+	class LMG_mas_M249_F_d							{ quality = 2; price = 300; };
+	class LMG_mas_M249a_F							{ quality = 2; price = 300; };
+		class LMG_mas_Mk48_F							{ quality = 2; price = 300; };
+	class LMG_mas_Mk48_F_v							{ quality = 2; price = 300; };
+	class LMG_mas_Mk48_F_d							{ quality = 2; price = 300; };
 	class LMG_Zafir_F								{ quality = 2; price = 350; };
+	class LMG_mas_M240_F								{ quality = 2; price = 350; };
 	class MMG_01_hex_F								{ quality = 3; price = 800; };
 	class MMG_01_tan_F								{ quality = 3; price = 800; };
+	class LMG_mas_mg3_F								{ quality = 2; price = 350; };
+	class LMG_mas_M60_F								{ quality = 2; price = 350; };
 	class MMG_02_black_F							{ quality = 3; price = 450; };
 	class MMG_02_camo_F								{ quality = 3; price = 450; };
 	class MMG_02_sand_F								{ quality = 3; price = 450; };
@@ -1229,28 +1261,93 @@ class CfgExileArsenal
 	class arifle_Katiba_C_F							{ quality = 1; price = 150; };
 	class arifle_Katiba_F							{ quality = 1; price = 150; };
 	class arifle_Katiba_GL_F						{ quality = 2; price = 200; };
-	class arifle_Mk20_F								{ quality = 1; price = 150; };
+		class arifle_Mk20_F								{ quality = 1; price = 150; };
 	class arifle_Mk20_GL_F							{ quality = 2; price = 200; };
 	class arifle_Mk20_GL_plain_F					{ quality = 2; price = 200; };
 	class arifle_Mk20_plain_F						{ quality = 1; price = 150; };
 	class arifle_Mk20C_F							{ quality = 1; price = 150; };
 	class arifle_Mk20C_plain_F						{ quality = 1; price = 150; };
-	class arifle_MX_Black_F							{ quality = 1; price = 450; };
+		class arifle_mas_m14						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_m16							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_m16_gl							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m16_m203						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_m4c							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_m4c_v							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m4c_d							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m4_m203c						{ qualtiy = 1; price = 575;	};
+	class arifle_mas_m4								{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m4_v							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m4_d							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m4vlt							{ qualtiy = 1; price = 550;	};
+	class arifle_mas_m4_gl							{ qualtiy = 1; price = 575;	};
+	class arifle_mas_m4_m203						{ qualtiy = 1; price = 575;	};
+		class arifle_mas_l119_c							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_l119c_v						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_l119c_d						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_l119							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_l119_v							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_l119_d							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_l119vlt						{ qualtiy = 1; price = 550;	};
+	class arifle_mas_l119_gl						{ qualtiy = 1; price = 575;	};
+	class arifle_mas_l119_m203						{ qualtiy = 1; price = 575;	};
+		class arifle_mas_mk16							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_mk16_gl						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_mk16_l							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_mk16_l_gl						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_mk17							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_mk17_gl						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_g3								{ qualtiy = 1; price = 500;	};
+	class arifle_mas_g3_m203						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_g3s							{ qualtiy = 1; price = 575;	};
+	class arifle_mas_g3s_m203						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_fal								{ qualtiy = 1; price = 500;	};
+	class arifle_mas_fal_m203						{ qualtiy = 1; price = 500;	};
+		class arifle_mas_arx							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_arx_gl							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_arx_l							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_arx_l_gl						{ qualtiy = 1; price = 575;	};
+		class arifle_mas_hk416c							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_hk416c_v						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk416c_d						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk416_m203c					{ qualtiy = 1; price = 575;	};
+	class arifle_mas_hk416							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk416_v						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk416_d						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk416vlt						{ qualtiy = 1; price = 550;	};
+	class arifle_mas_hk416_m203						{ qualtiy = 1; price = 575;	};
+	class arifle_mas_hk416_gl						{ qualtiy = 1; price = 575;	};
+		class arifle_mas_hk417c							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk417c_v						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk417c_d						{ qualtiy = 1; price = 500;	};
+	class arifle_mas_hk417_m203c					{ qualtiy = 1; price = 575;	};
+		class arifle_mas_m27							{ qualtiy = 1; price = 475;	};
+	class arifle_mas_m27_v							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_m27_d							{ qualtiy = 1; price = 500;	};
+	class arifle_mas_g36c							{ qualtiy = 1; price = 475;	};
+		class arifle_MX_Black_F							{ quality = 1; price = 450; };
 	class arifle_MX_F								{ quality = 1; price = 450; };
 	class arifle_MX_GL_Black_F						{ quality = 2; price = 450; };
 	class arifle_MX_GL_F							{ quality = 2; price = 450; };
 	class arifle_MXC_Black_F						{ quality = 1; price = 350; };
 	class arifle_MXC_F								{ quality = 1; price = 350; };
-	class arifle_SDAR_F								{ quality = 3; price = 650; };
-	class arifle_TRG20_F							{ quality = 1; price = 250; };
-	class arifle_TRG21_F							{ quality = 1; price = 250; };
+		class arifle_SDAR_F								{ quality = 3; price = 650; };
+		class arifle_TRG20_F							{ quality = 1; price = 250; };
+		class arifle_TRG21_F							{ quality = 1; price = 250; };
 	class arifle_TRG21_GL_F							{ quality = 2; price = 350; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Sniper Rifles
 	///////////////////////////////////////////////////////////////////////////////
+	class arifle_mas_lee 						{ quality = 1; price = 550; };
 	class arifle_MXM_Black_F 						{ quality = 1; price = 550; };
 	class arifle_MXM_F 								{ quality = 1; price = 550; };
+		class srifle_mas_hk417 							{ quality = 1; price = 550; };
+	class srifle_mas_hk417_v 						{ quality = 1; price = 550; };
+	class srifle_mas_hk417_d 						{ quality = 1; price = 550; };
+		class srifle_mas_sr25 							{ quality = 1; price = 550; };
+	class srifle_mas_sr25_v 						{ quality = 1; price = 550; };
+	class srifle_mas_sr25_d 						{ quality = 1; price = 550; };
+		class srifle_mas_ebr 							{ quality = 2; price = 600; };
 	class srifle_DMR_01_F 							{ quality = 2; price = 600; };
 	class srifle_DMR_02_camo_F 						{ quality = 3; price = 800; };
 	class srifle_DMR_02_F 							{ quality = 3; price = 800; };
@@ -1268,10 +1365,18 @@ class CfgExileArsenal
 	class srifle_DMR_06_camo_F 						{ quality = 3; price = 800; };
 	class srifle_DMR_06_olive_F 					{ quality = 3; price = 800; };
 	class srifle_EBR_F 								{ quality = 2; price = 700; };
+		class srifle_mas_mk17s 							{ quality = 2; price = 900; };
+		class srifle_mas_m24 							{ quality = 2; price = 900; };
+	class srifle_mas_m24_v 							{ quality = 2; price = 900; };
+	class srifle_mas_m24_d	 						{ quality = 2; price = 900; };
 	class srifle_GM6_camo_F 						{ quality = 3; price = 900; };
 	class srifle_GM6_F 								{ quality = 3; price = 900; };
+		class srifle_mas_m107 							{ quality = 2; price = 900; };
+	class srifle_mas_m107_v 							{ quality = 2; price = 900; };
+	class srifle_mas_m107_d	 						{ quality = 2; price = 900; };
 	class srifle_LRR_camo_F 						{ quality = 3; price = 850; };
 	class srifle_LRR_F 								{ quality = 3; price = 850; };
+	class srifle_mas_lrr 								{ quality = 3; price = 850; };
 
 	///////////////////////////////////////////////////////////////////////////////
 	// BIKES
